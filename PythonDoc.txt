@@ -1,0 +1,100 @@
+
+Advantages:
+ 
+HIGH LEVEL,INTERPRETED:it is easy to understand program code,it is a high level language
+it is free and open source
+OBJECT ORIENTED
+dynamically typed language
+PORTABLE:it runs on all major OS Microsoft Windows,Linux
+MODULAR:it has many standard library modules for a variety of tasks
+
+Disadvantages:
+
+slow Speed
+
+Data types:
+
+Integer
+Float
+Strings
+List
+Dictionary
+Tuple
+
+String:
+A string is a sequence of zero or more characters enclosed with in Single or double quotes
+format character:
+\n-new line
+\t-tab
+first character of a string starts with 0
+you can also count index of string from ending which starts with -1
+Strings can be indexed,sliced to retrieve particular characters from a string and stepped
+
+string methods:
+find
+replace
+index
+count
+startswith
+endswith
+split
+strip
+strings are immutable
+
+List:lists are ordered collection of data
+list of items should be enclosed in square brackets
+once list is created i can add,remove items from the list so lists are mutable
+methods:
+append:adds elements to the list
+insert:adds element at a particular position
+extend:Concatenates elements to the end of the list,extend method takes a single argument
+del:del elements in the list
+functions:
+cmp(l1,l2)-compares two lists
+len(l1)
+max(l1)
+min(l1)
+list(seq)-converts a tuple into list
+list comprehension are a precise way for creating lists
+syntax consists with brackets of an expression followed by a for clause then followed by zero or more for or if clauses..
+result will be the new list after evaluating all the for and if clauses
+
+tuple:tuple is sequence of data
+tuples should be enclosed in paranthesis
+tuples are immutable but we can take portions of tuples and create new tuples
+to remove an entire tuple use del statement
+
+dict:dictionaries are key value pairs
+keys are unique in a dictionary while values may not be
+values of dictionary can be of any type while key of dictionary should be string,numbers and tuples.
+even if there is a duplication of the key the last key assignment wins and dict keys are case sensitive
+
+if a key-value pair is to be deleted use del statement
+
+dict functions
+
+cmp(d1,d2)
+len(dict)
+str(dict)
+type(dict)
+dict.has key(key) returns true if there is key
+dict.items()-returns a list of ke-value pairs
+dict.keys()
+dict.update(d1)
+dict.values()
+method
+get(key,value=none)-gets the value of particular key
+dict.from keys(seq,val)-seq needs to be used for preparation of dict keys and val needs to be used for tht keys
+
+
+
+
+
+
+
+
+
+
+
+
+
