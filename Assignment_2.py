@@ -1,6 +1,6 @@
 #wap to create ten real classes
 
-class Curry:
+class Curry(object):
     type="Eatable"
     def __init__(self,name,colour,taste,consistency):
         self.name=name
@@ -15,6 +15,18 @@ class Curry:
 Dalcurry=Curry("dalcurry","yellow","spicy","semi solid")
 print (Dalcurry.description())
 print (Dalcurry.smelling("Aromatic"))
+class Mangodal(Curry):
+    def __init__(self,name,colour,taste,consistency,ingredient):
+        Curry.__init__(self,name,colour,taste,consistency)
+        self.ingredient=ingredient
+    def Cookprocess(self): 
+        return self.description
+M= Mangodal("Mangodal","yellow","delicious","solid","Mango")
+print (M.description())
+print (M.smelling("Delicious"))
+print (M.Cookprocess())
+
+
 
 class Mother:
     type="Human"
@@ -127,7 +139,7 @@ class Statue:
 Durga=Statue("durga","skincolor","mud")   
 print(Durga.Blessings("Consciousness")) 
 
-class TAASC_Throwball:
+"""class TAASC_Throwball:
     TeamDhangal_Score=0
     TeamSpikers_Score=0
     Gamepoint=0
@@ -141,7 +153,7 @@ class TAASC_Throwball:
             Gamepoint+=1    
         elif Underhand==True:
             Gamepoint+=1
-        elif doubletouch==True:
+        elif doubletouch==True:classmethod
             Gamepoint+=1
         elif doublehandsinrally==False:
             Gamepoint+=1
@@ -162,7 +174,7 @@ print(SpikersTeam.GameRules())
 print(DhangalTeam.Team_Score())
 print(SpikersTeam.Team_Score())
 print(DhangalTeam.Winners())
-print(SpikersTeam.Winners())
+print(SpikersTeam.Winners())"""
 
 
 
