@@ -1,0 +1,41 @@
+{  
+   "Library Details":{  
+      "Users":[  
+         {  
+            "Name":"Swetha",
+            "Id":"01",
+            "Adress":"Tustin"
+         },
+         {  
+            "Name":"Chakrika",
+            "Id":"02",
+            "Adress":"Irvine"
+         }
+      ],
+      "Book":[  
+         {  
+            "Name":"Very Busy Spider",
+            "Author":"John",
+            "language":"English",
+            "number of copies":"03"
+         },
+         {  
+            "Name":"Butterfly",
+            "Author":"Eric Carle",
+            "language":"Spanish",
+            "number of copies":"02"
+         }
+      ],
+      "Allotments":[
+         {
+            "UserName": "Swetha",
+            "Books":["Butterfly","Very Busy Spider"]
+            
+         },
+         {
+            "UserName": "Chakrika",
+            "Books": ["Spider Man"]
+         }
+      ]
+   }
+}
