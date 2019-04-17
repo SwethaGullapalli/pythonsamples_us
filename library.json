@@ -3,12 +3,12 @@
       "Users":[  
          {  
             "Name":"Swetha",
-            "Id":"01",
+            "UserId":"01",
             "Adress":"Tustin"
          },
          {  
             "Name":"Chakrika",
-            "Id":"02",
+            "UserId":"02",
             "Adress":"Irvine"
          }
       ],
@@ -17,24 +17,26 @@
             "Name":"Very Busy Spider",
             "Author":"John",
             "language":"English",
-            "number of copies":"03"
+            "number of copies":"03",
+            "ISBN":3
          },
          {  
             "Name":"Butterfly",
             "Author":"Eric Carle",
             "language":"Spanish",
-            "number of copies":"02"
+            "number of copies":2,
+             "ISBN":4
          }
       ],
       "Allotments":[
          {
-            "UserName": "Swetha",
-            "Books":["Butterfly","Very Busy Spider"]
-            
+            "UserId":1,
+            "ISBN":[4,3]         
          },
          {
-            "UserName": "Chakrika",
-            "Books": ["Spider Man"]
+            
+            "UserId":2,
+            "ISBN":[3]
          }
       ]
    }
