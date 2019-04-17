@@ -19,8 +19,8 @@ def GetUserBooksDetails(Jsoninputdata,UId):
                 if userallotment["UserId"] == UId: 
                     #print(userallotment["ISBN"])
                     allotted=1
-                    print("number of books taken are ",len(userallotment["ISBN"]))
-                    print("Below are the details of the books taken by the user : ")
+                    print("Number of books taken are: ",len(userallotment["ISBN"]))
+                    print("Below are the details of the books taken by the user: ")
                     for book in Jsoninputdata["Library Details"]["Books"]:
                         if book["ISBN"] in userallotment["ISBN"]:
                             print ("Book Name: ",book["BookName"])
