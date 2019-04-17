@@ -1,0 +1,48 @@
+{  
+   "Library Details":{  
+      "Users":[  
+         {  
+            "UserName":"Swetha",
+            "UserId":1,
+            "Adress":"Tustin"
+         },
+         {  
+            "UserName":"Chakrika",
+            "UserId":2,
+            "Adress":"Irvine"
+         },
+         {  
+            "UserName":"Naveen",
+            "UserId":3,
+            "Adress":"Irvine"
+         }
+      ],
+      "Books":[  
+         {  
+            "BookName":"Very Busy Spider",
+            "Author":"John",
+            "language":"English",
+            "number of copies":3,
+            "ISBN":3
+         },
+         {  
+            "BookName":"Butterfly",
+            "Author":"Eric Carle",
+            "language":"Spanish",
+            "number of copies":2,
+             "ISBN":4
+         }
+      ],
+      "Allotments":[
+         {
+            "UserId":1,
+            "ISBN":[4,3]         
+         },
+         {
+            
+            "UserId":2,
+            "ISBN":[3]
+         }
+      ]
+   }
+}
